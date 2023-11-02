@@ -2,8 +2,7 @@
 易截图2：https://apps.apple.com/app/id1633186528
 
 [rewrite_local]
-^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/yijietu2.js
-
+^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user url script-response-body https://raw.githubusercontent.com/1739201011/xiaoyu/main/xiaoyi.js
 [MITM]
 hostname = jietu6.com, 1jietu.com
 

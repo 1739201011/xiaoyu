@@ -7,9 +7,9 @@
 hostname = jietu6.com, 1jietu.com
 
 */
-var guding = JSON.parse($response.body);
-guding.info.group_id = "3";
-guding.info.vip = "1";
-guding.info.group = "小易的破解会员";
-guding.info.nickname = "小易";
+var xiaoyi = JSON.parse($response.body);
+xiaoyi.info.group_id = "8";
+xiaoyi.info.vip = "3";
+xiaoyi.info.group = "小易的破解会员";
+xiaoyi.info.nickname = "小易";
 $done({ body: JSON.stringify(guding) });
